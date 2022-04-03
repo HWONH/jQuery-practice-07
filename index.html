@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery - 실습기초-데이터</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="ex_01">
+		<input class="input_box" type="text" placeholder="내용 입력" />
+		<span class="input_text"></span>
+    </div>
+    
+    <hr>
+
+    <div id="ex_02">
+		<form class="submit_form" action="login.php">
+			<div class="input_group">
+				<input class="input_box" type="text" placeholder="내용 입력"/>
+				<input class="submit_btn" type="submit" value="제출하기" />
+			</div>
+		</form>
+		<span class="input_text" style="display:none;"></span>
+    </div>
+    
+    <hr>
+
+    <div id="ex_03">
+		<form class="submit_form" action="login.php">
+			<div class="input_group">
+				<p>
+					<label>아이디</label>
+					<input class="input_box_01" type="text" />
+				</p>
+				<span class="input_text_01"></span>
+				<p>
+					<label>패스워드</label>
+					<input class="input_box_02" type="password" />
+				</p>
+				<span class="input_text_02"></span>
+				<p><input class="submit_btn" type="submit" value="로그인" /></p>
+			</div>
+		</form>
+    </div>
+    
+    <div id="ex_04">
+		<div id="first">
+			<form action="" method="post">
+				<p><label>아이디</label><input type="text" id="loginusername" placeholder="ID" /></p>
+				<p><label>패스워드</label><input type="password" id="loginpassword" placeholder="Password" /></p>
+				<p><input type="button" class="login" value="로그인" /></p>
+			</form>
+		</div>
+		<div id="second"></div>
+    </div>
+</body>
+</html>
